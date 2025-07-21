@@ -70,7 +70,7 @@ const ProjectCard = ({ project, technologies, techDetails }: ProjectCardProps) =
         <h2 className="text-2xl font-bold text-white truncate text-left">{project.title}</h2>
       </div>
       {/* Description */}
-      <p className="text-gray-300 text-left flex-1 overflow-hidden text-ellipsis mb-2">{project.description}</p>
+      <p className="text-gray-300 text-left flex-1 mb-2">{project.description}</p>
       {/* Technologies */}
       {technologies && techDetails && (
         <TechnologyBadgeList names={technologies} techDetails={techDetails} />
