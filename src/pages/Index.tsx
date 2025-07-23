@@ -5,8 +5,7 @@ import { House, Info, Monitor, User, Package, Eye } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { TechStack } from '../components/TechStack';
 import { supabase } from '../lib/supabaseClient';
-import { TypewriterEffect, TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import { motion } from "framer-motion";
+
 import Loader from "@/components/ui/loader";
 
 const defaultProfile = {
