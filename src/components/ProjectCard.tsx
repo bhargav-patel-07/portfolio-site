@@ -57,7 +57,7 @@ export function TechnologyBadgeList({ names, techDetails }: { names: string[]; t
 
 const ProjectCard = ({ project, technologies, techDetails }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col justify-between bg-white/10 border border-transparent rounded-xl p-6 shadow transition-all duration-200 hover:scale-105 hover:border-purple-500 cursor-pointer w-full max-w-xs min-h-[350px] max-h-[350px] mx-auto">
+    <div className="flex flex-col justify-between bg-white/10 border border-transparent rounded-xl p-6 shadow transition-all duration-200 hover:scale-105 hover:border-purple-500 cursor-pointer w-full max-w-xs min-h-[350px]  mx-auto">
       {/* Logo and Title side by side */}
       <div className="flex items-center justify-center mb-4 gap-3">
         {project.image_url ? (
